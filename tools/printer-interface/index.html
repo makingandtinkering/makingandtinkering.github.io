@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <link rel="icon" href="/tools/printer-interface/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Material Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <!-- Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700"
+    />
+    <!-- Roboto Mono -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono"
+    />
+    <title>Printer Interface</title>
+    <meta http-equiv="content-security-policy" content="">
+	<link href="/tools/printer-interface/_app/immutable/assets/index-fdc4db57.css" rel="stylesheet">
+	<link rel="modulepreload" href="/tools/printer-interface/_app/immutable/start-a9843c1f.js">
+	<link rel="modulepreload" href="/tools/printer-interface/_app/immutable/chunks/index-9b98d240.js">
+	<link rel="modulepreload" href="/tools/printer-interface/_app/immutable/chunks/preload-helper-2ab0228d.js">
+	<link rel="modulepreload" href="/tools/printer-interface/_app/immutable/layout.svelte-0151d3a1.js">
+	<link rel="modulepreload" href="/tools/printer-interface/_app/immutable/pages/index.svelte-051ab5d0.js">
+  </head>
+  <body>
+    <div>
+
+
+
+
+<header aria-label="Printer Interface" class="bx--header">
+  
+  <a class="bx--header__name">
+    Printer Interface</a>
+  </header>
+<main id="main-content" style="false position: fixed;}" class="bx--content"><div style="display: flex;flex-direction: row;"><div style="display: flex;flex-direction: column">
+<ul class="bx--accordion  bx--accordion--end  ">
+<li class="bx--accordion__item bx--accordion__item--active   "><button type="button" title="Expand/Collapse" aria-expanded="true"  class="bx--accordion__heading"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" role="img" class="bx--accordion__arrow" aria-label="Expand/Collapse"><path d="M22 16L12 26 10.6 24.6 19.2 16 10.6 7.4 12 6z"></path></svg>
+    <div class="bx--accordion__title">Configuration</div></button>
+  <div class="bx--accordion__content">
+
+
+<div class="tile bx--tile " style=""><h3 style="margin: 0">Serial Port</h3>
+  <div style="display: flex; flex-direction: row"><div class="bx--form-item"><div class="bx--select"><label for="ccs-0.fatfgr835u" class="bx--label">
+          Baud Rate
+        </label>
+    
+    <div class="bx--select-input__wrapper"><select id="ccs-0.fatfgr835u"   class="bx--select-input"><option value="250000"   selected class="undefined bx--select-option">250000</option><option value="115200"    class="undefined bx--select-option">115200</option><option value="9600"    class="undefined bx--select-option">9600</option></select>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden class="bx--select__arrow"><path d="M16 22L6 12 7.4 10.6 16 19.2 24.6 10.6 26 12z"></path></svg>
+        
+        </div>
+      <div class="bx--form__helper-text">Usually 250000</div>
+      
+      </div></div>
+    <div style="display: flex; align-items: center">
+<button type="button" tabindex="0" class="bx--btn bx--btn--primary">
+    Connect</button></div></div></div>
+          
+<div class="tile bx--tile " style=""><h3 style="margin: 0; display: flex; flex-direction: row"><span style="margin-right: 4px;">Camera Control</span>
+    <div style="all: initial; display: flex; align-items: center;">
+        <div aria-atomic="true" aria-labelledby="ccs-0.199dww9tv8s" aria-live="assertive" class="bx--loading bx--loading--small ">
+    <label id="ccs-0.199dww9tv8s" class="bx--visually-hidden">Active loading indicator</label>
+    <svg viewBox="0 0 100 100" class="bx--loading__svg"><title>Active loading indicator</title><circle cx="50%" cy="50%" r="42" class="bx--loading__background"></circle><circle cx="50%" cy="50%" r="42" class="bx--loading__stroke"></circle></svg></div></div>
+    </h3>
+  <div class="bx--form-item"><div class="bx--select    bx--select--disabled"><label for="ccs-0.8cf7yt523eo" class="bx--label  bx--label--disabled">
+          Device
+        </label>
+    
+    <div class="bx--select-input__wrapper"><select id="ccs-0.8cf7yt523eo" disabled  class="bx--select-input"></select>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden class="bx--select__arrow"><path d="M16 22L6 12 7.4 10.6 16 19.2 24.6 10.6 26 12z"></path></svg>
+        
+        </div>
+      <div class="bx--form__helper-text bx--form__helper-text--disabled">Usually USB2.0 UVC PC Camera</div>
+      
+      </div></div></div></div></li></ul>
+
+      
+<div class="tile bx--tile " style="width: 500px"><h3 style="margin: 0">Scanning Controls</h3>
+  <div class="textfield-container svelte-1oxc06"><div class="svelte-1oxc06">
+<div class="bx--form-item"><div class="bx--number bx--number--helpertext    bx--number--nosteppers"><label for="ccs-0.m0nwzvxr6t" class="bx--label">X Distance (mm)</label>
+    <div class="bx--number__input-wrapper"><input type="number" pattern="[0-9]*" aria-describedby="error-ccs-0.m0nwzvxr6t" id="ccs-0.m0nwzvxr6t" min="0.01" step="1" value="4" class="field">
+      
+      
+      
+      </div>
+    
+    
+    </div></div></div>
+    <div class="svelte-1oxc06">
+<div class="bx--form-item"><div class="bx--number bx--number--helpertext    bx--number--nosteppers"><label for="ccs-0.gi8dkkhv8cu" class="bx--label">Y Distance (mm)</label>
+    <div class="bx--number__input-wrapper"><input type="number" pattern="[0-9]*" aria-describedby="error-ccs-0.gi8dkkhv8cu" id="ccs-0.gi8dkkhv8cu" min="0.01" step="1" value="4" class="field">
+      
+      
+      
+      </div>
+    
+    
+    </div></div></div>
+    <div class="svelte-1oxc06">
+<div class="bx--form-item"><div class="bx--number bx--number--helpertext    bx--number--nosteppers"><label for="ccs-0.j81y2k3h6c" class="bx--label">Step Size (mm)</label>
+    <div class="bx--number__input-wrapper"><input type="number" pattern="[0-9]*" aria-describedby="error-ccs-0.j81y2k3h6c" id="ccs-0.j81y2k3h6c" min="0.1" step="1" value="1" class="field">
+      
+      
+      
+      </div>
+    
+    
+    </div></div></div></div>
+  <div class="textfield-container svelte-1oxc06"><div class="svelte-1oxc06">
+<div class="bx--form-item"><div class="bx--number bx--number--helpertext"><label for="ccs-0.vrsty4zo2qk" class="bx--label">Move Speed (mm/s)</label>
+    <div class="bx--number__input-wrapper"><input type="number" pattern="[0-9]*" aria-describedby="error-ccs-0.vrsty4zo2qk" id="ccs-0.vrsty4zo2qk" max="3000" min="1000" step="100" value="3000">
+      
+      
+      
+      <div class="bx--number__controls"><button type="button" tabindex="-1" title="Decrement number" aria-label="Decrement number"  class="bx--number__control-btn down-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden class="down-icon"><path d="M8 15H24V17H8z"></path></svg></button>
+          <div class="bx--number__rule-divider"></div>
+          <button type="button" tabindex="-1" title="Increment number" aria-label="Increment number"  class="bx--number__control-btn up-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden class="up-icon"><path d="M17 15L17 8 15 8 15 15 8 15 8 17 15 17 15 24 17 24 17 17 24 17 24 15z"></path></svg></button>
+          <div class="bx--number__rule-divider"></div></div></div>
+    
+    
+    </div></div></div>
+    <div class="svelte-1oxc06">
+<div class="bx--form-item"><div class="bx--number bx--number--helpertext"><label for="ccs-0.ntfnvxuz2rm" class="bx--label">Move Delay (ms)</label>
+    <div class="bx--number__input-wrapper"><input type="number" pattern="[0-9]*" aria-describedby="error-ccs-0.ntfnvxuz2rm" id="ccs-0.ntfnvxuz2rm" min="0" step="100" value="500" class="field">
+      
+      
+      
+      <div class="bx--number__controls"><button type="button" tabindex="-1" title="Decrement number" aria-label="Decrement number"  class="bx--number__control-btn down-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden class="down-icon"><path d="M8 15H24V17H8z"></path></svg></button>
+          <div class="bx--number__rule-divider"></div>
+          <button type="button" tabindex="-1" title="Increment number" aria-label="Increment number"  class="bx--number__control-btn up-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden class="up-icon"><path d="M17 15L17 8 15 8 15 15 8 15 8 17 15 17 15 24 17 24 17 17 24 17 24 15z"></path></svg></button>
+          <div class="bx--number__rule-divider"></div></div></div>
+    <div class="bx--form__helper-text">Delay after move is completed</div>
+    
+    </div></div></div></div>
+  <div style="display: flex; align-items: center;">
+<button type="button" tabindex="0" disabled style="margin-right: 8px" title="Connect to your printer and camera first!" class="bx--btn bx--btn--primary bx--btn--disabled">
+    Start</button>
+    Full scan will take 16 photos</div></div>
+      
+<div class="tile bx--tile " style=""><h3 style="margin: 0">Printer Controls</h3>
+  <table><tr><td>
+<button type="button" tabindex="0" disabled class="bx--btn bx--btn--primary bx--btn--disabled">
+    X<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M16.6123,2.2138a1.01,1.01,0,0,0-1.2427,0L1,13.4194l1.2427,1.5717L4,13.6209V26a2.0041,2.0041,0,0,0,2,2H26a2.0037,2.0037,0,0,0,2-2V13.63L29.7573,15,31,13.4282ZM18,26H14V18h4Zm2,0V18a2.0023,2.0023,0,0,0-2-2H14a2.002,2.002,0,0,0-2,2v8H6V12.0615l10-7.79,10,7.8005V26Z"></path></svg></button></td>
+      <td></td>
+      <td>
+<button type="button" tabindex="0" disabled class="bx--btn bx--btn--primary bx--btn--disabled bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--btn--icon-only--bottom bx--tooltip--align-center no-description"><span class="bx--assistive-text">undefined</span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M16 4L6 14 7.41 15.41 15 7.83 15 28 17 28 17 7.83 24.59 15.41 26 14 16 4z"></path></svg></button></td>
+      <td></td>
+      <td>
+<button type="button" tabindex="0" disabled class="bx--btn bx--btn--primary bx--btn--disabled bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--btn--icon-only--bottom bx--tooltip--align-center no-description"><span class="bx--assistive-text">undefined</span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M16 4L6 14 7.41 15.41 15 7.83 15 28 17 28 17 7.83 24.59 15.41 26 14 16 4z"></path></svg></button></td></tr>
+    <tr><td>
+<button type="button" tabindex="0" disabled class="bx--btn bx--btn--primary bx--btn--disabled">
+    Y<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M16.6123,2.2138a1.01,1.01,0,0,0-1.2427,0L1,13.4194l1.2427,1.5717L4,13.6209V26a2.0041,2.0041,0,0,0,2,2H26a2.0037,2.0037,0,0,0,2-2V13.63L29.7573,15,31,13.4282ZM18,26H14V18h4Zm2,0V18a2.0023,2.0023,0,0,0-2-2H14a2.002,2.002,0,0,0-2,2v8H6V12.0615l10-7.79,10,7.8005V26Z"></path></svg></button></td>
+      <td>
+<button type="button" tabindex="0" disabled class="bx--btn bx--btn--primary bx--btn--disabled bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--btn--icon-only--bottom bx--tooltip--align-center no-description"><span class="bx--assistive-text">undefined</span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M14 26L15.41 24.59 7.83 17 28 17 28 15 7.83 15 15.41 7.41 14 6 4 16 14 26z"></path></svg></button></td>
+      <td></td>
+      <td>
+<button type="button" tabindex="0" disabled class="bx--btn bx--btn--primary bx--btn--disabled bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--btn--icon-only--bottom bx--tooltip--align-center no-description"><span class="bx--assistive-text">undefined</span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M18 6L16.57 7.393 24.15 15 4 15 4 17 24.15 17 16.57 24.573 18 26 28 16 18 6z"></path></svg></button></td>
+      <td style="text-align: center; vertical-align: middle">Z</td></tr>
+    <tr><td>
+<button type="button" tabindex="0" disabled class="bx--btn bx--btn--primary bx--btn--disabled">
+    Z<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M16.6123,2.2138a1.01,1.01,0,0,0-1.2427,0L1,13.4194l1.2427,1.5717L4,13.6209V26a2.0041,2.0041,0,0,0,2,2H26a2.0037,2.0037,0,0,0,2-2V13.63L29.7573,15,31,13.4282ZM18,26H14V18h4Zm2,0V18a2.0023,2.0023,0,0,0-2-2H14a2.002,2.002,0,0,0-2,2v8H6V12.0615l10-7.79,10,7.8005V26Z"></path></svg></button></td>
+      <td></td>
+      <td>
+<button type="button" tabindex="0" disabled class="bx--btn bx--btn--primary bx--btn--disabled bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--btn--icon-only--bottom bx--tooltip--align-center no-description"><span class="bx--assistive-text">undefined</span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button></td>
+      <td></td>
+      <td>
+<button type="button" tabindex="0" disabled class="bx--btn bx--btn--primary bx--btn--disabled bx--btn--icon-only bx--tooltip__trigger bx--tooltip--a11y bx--btn--icon-only--bottom bx--tooltip--align-center no-description"><span class="bx--assistive-text">undefined</span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M24.59 16.59L17 24.17 17 4 15 4 15 24.17 7.41 16.59 6 18 16 28 26 18 24.59 16.59z"></path></svg></button></td></tr></table>
+  <div style="display: flex;align-items: center; text-align: center; margin-top: 8px;">
+<button type="button" tabindex="0" disabled class="bx--btn bx--btn--primary bx--btn--disabled">
+    XYZ<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden="true" class="bx--btn__icon"><path d="M16.6123,2.2138a1.01,1.01,0,0,0-1.2427,0L1,13.4194l1.2427,1.5717L4,13.6209V26a2.0041,2.0041,0,0,0,2,2H26a2.0037,2.0037,0,0,0,2-2V13.63L29.7573,15,31,13.4282ZM18,26H14V18h4Zm2,0V18a2.0023,2.0023,0,0,0-2-2H14a2.002,2.002,0,0,0-2,2v8H6V12.0615l10-7.79,10,7.8005V26Z"></path></svg></button>
+    <div class="move-distance-selector-container svelte-fbabrb"><div style="text-align: left" class="svelte-fbabrb">Move Distance</div>
+      
+<div role="tablist" class="move-distance-selector bx--content-switcher  ">
+<button type="button" role="tab" tabindex="-1" aria-selected="false" id="ccs-0.uz7d8qjn9w" class="bx--content-switcher-btn "><span class="bx--content-switcher__label">0.1</span></button>
+<button type="button" role="tab" tabindex="-1" aria-selected="false" id="ccs-0.ne3uwaitas" class="bx--content-switcher-btn "><span class="bx--content-switcher__label">1</span></button>
+<button type="button" role="tab" tabindex="-1" aria-selected="false" id="ccs-0.9b4kb3g7gn" class="bx--content-switcher-btn "><span class="bx--content-switcher__label">10</span></button>
+<button type="button" role="tab" tabindex="-1" aria-selected="false" id="ccs-0.73dn9fncn2c" class="bx--content-switcher-btn "><span class="bx--content-switcher__label">100</span></button></div></div></div></div></div>
+    
+<div class="tile bx--tile " style="width: 500px;"><h3 style="margin: 0">Console</h3>
+  <div class="console-container svelte-1pl1qoi"><div style="overflow: scroll; flex-grow: 1; margin-bottom: 8px;"><pre></pre></div>
+    
+<div class="bx--form-item">
+  <div class="bx--text-area__wrapper">
+    <textarea disabled id="ccs-0.iafnc2lx5zd" cols="50" rows="1" placeholder="" style="width: 100%;" title="A serial port must be connected" class="bx--text-area  "></textarea></div>
+  <div class="bx--form__helper-text bx--form__helper-text--disabled">Ctrl-Enter to insert new line</div>
+  </div></div></div>
+    
+<div class="tile bx--tile " style="width: 500px"><h3 style="margin: 0">Camera Live View</h3>
+  <div><video style="width: 100%" playsinline autoplay><track kind="captions"></video></div>
+  <h3 style="margin: 0">Camera Snapshot</h3>
+  <div>
+<button type="button" tabindex="0" disabled class="bx--btn bx--btn--primary bx--btn--disabled">
+    Capture</button>
+    
+<button type="button" tabindex="0" disabled class="bx--btn bx--btn--primary bx--btn--disabled">
+    Download</button>
+    <div></div></div></div></div>
+
+  <div style="position: absolute; top: 64px; right: 16px; text-align: right;"></div></main>
+
+
+		<script type="module" data-sveltekit-hydrate="127tw49">
+		import { set_public_env, start } from "/tools/printer-interface/_app/immutable/start-a9843c1f.js";
+
+		set_public_env({});
+
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="127tw49"]').parentNode,
+			paths: {"base":"/tools/printer-interface","assets":"/tools/printer-interface"},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [0, 2],
+				params: {},
+				routeId: ""
+			}
+		});
+	</script></div>
+  </body>
+</html>
